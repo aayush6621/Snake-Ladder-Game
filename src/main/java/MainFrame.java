@@ -44,12 +44,14 @@ class MainFrame extends JFrame {
 		be = new BoardElements(this.board);
 		layeredpane = getLayeredPane();
 		image_url = Main.class.getResource("home.png");
-		hIcon = new ImageIcon(image_url);
+		// hIcon = new ImageIcon(image_url);
+		hIcon = new ImageIcon("../resources/home.png");
 		img = hIcon.getImage();
 		img = img.getScaledInstance(50, 50, java.awt.Image.SCALE_SMOOTH);
 		hIcon = new ImageIcon(img);
 		image_url = Main.class.getResource("reset.jpeg");
-		nIcon = new ImageIcon(image_url);
+		// nIcon = new ImageIcon(image_url);
+		nIcon = new ImageIcon("../resources/reset.jpeg");
 		img = nIcon.getImage();
 		img = img.getScaledInstance(50, 50, java.awt.Image.SCALE_SMOOTH);
 		nIcon = new ImageIcon(img);
