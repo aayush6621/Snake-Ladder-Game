@@ -8,7 +8,7 @@ The details of each move in a game are recorded in a file `demo.txt` using the c
 ## Home-Page
   <br />
   <br />
-  ![home-page alt](https://github.com/aayush6621/Snake-Ladder-Game/assets/116342742/ac957936-2a86-45f8-9235-74c91cb9a95a "home-page")
+  ![home-page](https://github.com/aayush6621/Snake-Ladder-Game/assets/116342742/ac957936-2a86-45f8-9235-74c91cb9a95a)
   <br />
   <br />
 
@@ -16,14 +16,14 @@ The details of each move in a game are recorded in a file `demo.txt` using the c
   ### Single-Player:
   <br />
   <br />
-  ![single-player alt](https://github.com/aayush7908/Snake-Ladder-Game/assets/116342742/5ae9be5e-7fbe-4af3-9364-4faa7e84f902 "single-player")
+  ![single-player](https://github.com/aayush7908/Snake-Ladder-Game/assets/116342742/5ae9be5e-7fbe-4af3-9364-4faa7e84f902)
   <br />
   <br />
 
   ### Two-Player:
   <br />
   <br />
-  ![two-player alt](https://github.com/aayush7908/Snake-Ladder-Game/assets/116342742/8aa4f73d-df0f-46ef-abe9-13b3da321107 "two-player")
+  ![two-player](https://github.com/aayush7908/Snake-Ladder-Game/assets/116342742/8aa4f73d-df0f-46ef-abe9-13b3da321107)
   <br />
   <br />
 
