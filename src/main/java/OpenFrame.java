@@ -28,7 +28,8 @@ class OpenFrame extends JFrame {
 		history = new JButton();
 		d = Toolkit.getDefaultToolkit().getScreenSize();
 		image_url = Main.class.getResource("background.png");
-		bg = new ImageIcon(image_url);
+		// bg = new ImageIcon(image_url);
+		bg = new ImageIcon("../resources/background.png");
 		img = bg.getImage();
 		img = img.getScaledInstance(d.width, d.height, java.awt.Image.SCALE_SMOOTH);
 		bg = new ImageIcon(img);

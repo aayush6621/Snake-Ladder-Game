@@ -16,12 +16,15 @@ class Board extends JPanel {
 		GridBagConstraints gbc = new GridBagConstraints();
 		this.setLayout(gbag);
 		
-		image_url = Main.class.getResource("blue.png");
-		blue = new ImageIcon(image_url);
+		image_url = Main.class.getResource(".blue.png");
+		// blue = new ImageIcon(image_url);
+		blue = new ImageIcon("../resources/blue.png");
 		image_url = Main.class.getResource("green.png");
-		green = new ImageIcon(image_url);
+		// green = new ImageIcon(image_url);
+		green = new ImageIcon("../resources/green.png");
 		image_url = Main.class.getResource("combined.png");
-		combined = new ImageIcon(image_url);
+		// combined = new ImageIcon(image_url);
+		combined = new ImageIcon("../resources/combined.png");
 		img = blue.getImage();
 		img = img.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH);
 		blue = new ImageIcon(img);
