@@ -6,9 +6,44 @@ Concept of `multithreading` is used here. When a new game is started, an object 
 The details of each move in a game are recorded in a file `demo.txt` using the concept of `File-Handling`. After the game is finished, each player can see their moves made during the game.
 
 ## Home-Page
-
-![Screenshot (74)](https://github.com/aayush6621/Snake-Ladder-Game/assets/116342742/ac957936-2a86-45f8-9235-74c91cb9a95a)
+  <br />
+  <br />
+  ![home-page alt](https://github.com/aayush6621/Snake-Ladder-Game/assets/116342742/ac957936-2a86-45f8-9235-74c91cb9a95a "home-page")
+  <br />
+  <br />
 
 ## Game-Board
+  ### Single-Player:
+  <br />
+  <br />
+  ![single-player alt](https://github.com/aayush7908/Snake-Ladder-Game/assets/116342742/5ae9be5e-7fbe-4af3-9364-4faa7e84f902 "single-player")
+  <br />
+  <br />
 
-![Screenshot (75)](https://github.com/aayush6621/Snake-Ladder-Game/assets/116342742/fb2dc0fd-c6bf-49d4-9f66-449338c6acc8)
+  ### Two-Player:
+  <br />
+  <br />
+  ![two-player alt](https://github.com/aayush7908/Snake-Ladder-Game/assets/116342742/8aa4f73d-df0f-46ef-abe9-13b3da321107 "two-player")
+  <br />
+  <br />
+
+## Installation
+To clone the project, open the git bash terminal in a desired directory and execute the following command:
+```
+git clone https://github.com/aayush7908/Snake-Ladder-Game.git
+```
+
+After this, a new directory with the name `Snake-Ladder-Game` will be created within the current working directory. Open this directory in terminal and execute the below given command:
+```
+javac -d "./bin" src/main/java/*.java
+```
+
+By doing this, `.class` files will be created inside a newly created `bin` directory. Now, move to the `bin` directory using the command:
+```
+cd bin
+```
+
+Then start the application using:
+```
+java Main
+```
